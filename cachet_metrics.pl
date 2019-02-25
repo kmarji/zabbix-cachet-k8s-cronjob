@@ -5,7 +5,7 @@ use LWP::UserAgent;
 use JSON;
 use Data::Dumper;
 
-my $ZABBIXAPI = $ENV{'ZABBIXAPI'};
+my $ZABBIXAPI = $ENV{'ZABBIXURL'};
 my $ZAPIUSER = $ENV{'ZAPIUSER'};
 my $ZAPIPASS = $ENV{'ZAPIPASS'};
 my $ITEM_ID = $ENV{'ITEMID'};
@@ -13,8 +13,8 @@ my $METRIC_ID = $ENV{'METRICID'};
 my $VALUES_COUNT = $ENV{'VALUESCOUNT'} || 1;
 my $ITEM_TYPE = $ENV{'ITEMTYPE'};
 
-my $CACHET_API = "http://127.0.0.1:40080/api/v1/";
-my $CACHET_TOKEN = "n2PxNWqmykjvvri01QJV";
+my $CACHET_API = $ENV{'CACHETHQAPI'};
+my $CACHET_TOKEN = $ENV{'CACHETHQTOKEN'};;
 
 my $ID = 0;
 my $AUTH = '';
