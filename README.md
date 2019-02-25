@@ -2,10 +2,12 @@
 
 # ENVIRONMENT variables to set
 
-* ZABBIXAPI - zabbix api url
+* ZABBIXURL - zabbix api url {http://zabbix.domain.com/zabbix}
 * ZAPIUSER - zabbix api user
 * ZAPIPASS - zabbi api password
 * ITEMID - zabbix item id
+* CACHETHQURL - cachet-qh API url {http://cachet-hq.domain.com/api/v1/
+* CACHETHQTOKEN - cachet-qh token
 * ITEMTYPE - item type, required for API requests to history
 <br>0 - numeric float; 
 <br>1 - character; 
