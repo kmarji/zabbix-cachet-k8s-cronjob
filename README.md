@@ -6,7 +6,7 @@
 * ZAPIUSER - zabbix api user
 * ZAPIPASS - zabbi api password
 * ITEMID - zabbix item id
-* CACHETHQURL - cachet-qh API url {http://cachet-hq.domain.com/api/v1/
+* CACHETHQURL - cachet-qh API url {http://cachet-hq.domain.com/api/v1/}
 * CACHETHQTOKEN - cachet-qh token
 * ITEMTYPE - item type, required for API requests to history
 <br>0 - numeric float; 
